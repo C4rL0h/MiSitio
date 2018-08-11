@@ -1,0 +1,98 @@
+/*
+*{
+    border: 1px solid red;
+}
+    */
+body {
+    font-family: 'Allerta', sans-serif;
+    margin: 0;
+}
+.titulo{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    margin-top: 70px;
+    }
+.button{
+    border: none;
+    border-radius: 5px;
+    background: #fd324e;
+    color: white;
+
+}
+.titulo-a{
+    font-size: 24px;
+    margin-top: 0px;
+}
+.titulo-b{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.portada{
+    background-image: url("../imagenes/portada.png");
+    color: white;
+    padding: 20px;
+}
+.logotipo{
+    display: inline-block;
+}
+.menu{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.header{
+    position: relative;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.skills{
+    color: #1f313c;
+}
+.skills h3{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.skill ol{
+    padding: 0 ;
+}
+.skill{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1F313C;
+    border-radius: 50px;
+}
+.right{
+    float: right;
+    position: relative;
+    top: -127px;
+}
+.left{
+    float: left;
+    position: relative;
+    top: 80px;
+}
+.contenedor-skill-a{
+    margin-left: 20px;
+}
+.contenedor-skill-b{
+    margin-left: 370px;
+}
+.contenedor{
+    width: 800px;
+    margin: auto;
+}
+.footer{
+    background: #ffd800;
+}
+#header{
+
+}
+#portada{
+
+}
+#skills 

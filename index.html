@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title> Mi Sitio Web</title>
+        <link href="css/estilo.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header" class="header contenedor">
+            <figure class="logotipo">
+                <img src="imagenes/logo.png" width="97" alt="Carlos Huit" />
+            </figure>
+            <nav class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="portada" class="portada">
+            <div class="contenedor">
+                <h1 class="titulo"> Carlos Huit </h1>
+                <h3 class="titulo-b" >Trabajo bien echo </h3>
+                <button class="button"> Bibliografia</button>
+            </div>
+        </section>
+        <section id="skills" class="skills contenedor">
+            <h2 class="titulo-b">Mis Skills</h2>
+            <article class="skill">
+                <img src="imagenes/java.png" width="350" alt="java" class="right" />
+                <div class="contenedor-skill-a">
+                    <h3 class="titulo-b">Desarrollo con Java</h3>
+                    <ol>
+                        <li>JPA</li>
+                        <li>JavaFX</li>
+                        <li>JBDC</li>
+                    </ol>
+                </div>
+               
+                
+                
+            </article>
+            <article class="skill">
+                <img src="imagenes/net.png" width="350" alt=".NET" class="left" />
+                <div class="contenedor-skill-b">
+                    <h3 class="titulo-b">Desarrollo con .net</h3>
+                    <ol>
+                        <li>Entity Framework</li>
+                        <li>LINQ</li>
+                        <li>WPF</li>
+                    </ol>
+                </div>
+            </article>
+        </section>
+        <footer class="footer">
+            <div>
+                <img src="imagenes/logo.png" alt=""/>
+                <a href="tel:+50241543339"><strong>Telefono:</strong>+(502)41543339<span></span></a>
+                <a href="mailto:carloshuit513@yahoo.com"><strong>Email:</strong>+(502)41543339<span></span></a>
+
+                
+            </div>
+
+            
+            <form>
+                <div>
+                    <label for="junior">
+                        <input type="radio" name="developer" id="junior" checked value="junior" />
+                        junior
+                    </label>
+                    <label for="senior">
+                        <input type="radio" name="developer" id="senior" checked value="senior" />
+                        junior
+                    </label>
+                </div>
+                <div>
+                    <label for="c#">
+                        <input type="checkbox" name="intereses" id="c#" value="c#"/>
+                    </label>
+                    <label for="vb">
+                        <input type="checkbox" name="intereses" id="vb" value="vb" />
+                    </label>
+                    <label for="sql">
+                        <input type="checkbox" name="intereses" id="sql" value="sql" />
+                    </label>
+                    <label for="java">
+                        <input type="checkbox" name="intereses" id="java" value="java" />
+                    </label>
+                </div>
+                <div>
+                    <label></label>
+                    <textarea name="comentario" id="comentario" cols="10" rows="7"></textarea>
+                    <input type="submit" value="Enviar"/>
+                </div> 
+            </form>
+        </footer>
+    </body>
+
+ </html>
+
+
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+justify-content: flex-end;
+
+
+<div class="padre">
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+</div>
+
+.padre{
+  borde: 1px solid red;
+  display: flexy;
+  justify-content: flex-end;
+}
+.hijo{
+  width:200px;
+  height:200px;
+  border: 1px solid green;
+
+}
